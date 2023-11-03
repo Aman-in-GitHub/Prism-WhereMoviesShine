@@ -1,0 +1,16 @@
+{
+  "name": "Prism - Where Movies Shine",
+  "short_name": "Prism",
+  "description": "Indulge in the magic of the cinema wherever you are.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#9D4EDD",
+  "theme_color": "#9D4EDD",
+  "icons": [
+    {
+      "src": "./public/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
