@@ -4,8 +4,8 @@
   "description": "Indulge in the magic of the cinema wherever you are.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#9D4EDD",
-  "theme_color": "#9D4EDD",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
   "icons": [
     {
       "src": "./public/logo.png",
