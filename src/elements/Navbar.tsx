@@ -1,7 +1,7 @@
 import logo from '/logo.svg';
 import { ModeToggle } from '@/components/mode-toggle';
 import { NavLink, useLocation } from 'react-router-dom';
-import { DialogCloseButton } from './DialogCloseButton';
+import { SearchButton } from './SearchButton';
 
 const Navbar = () => {
   const locationPlayer = useLocation().pathname.includes('/player');
@@ -31,7 +31,7 @@ const Navbar = () => {
           Home
         </NavLink>
 
-        <DialogCloseButton />
+        <SearchButton />
       </div>
       <div>
         <ModeToggle />

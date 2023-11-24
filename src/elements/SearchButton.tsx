@@ -9,15 +9,18 @@ import {
   DialogTitle,
   DialogTrigger
 } from '@/components/ui/dialog';
+
 import { useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-export function DialogCloseButton() {
+export function SearchButton() {
   const navigate = useNavigate();
   const searchRef = useRef('');
 
   function handleSubmit(e) {
     e.preventDefault();
+
+    navigate(`search/${searchRef.current}`);
   }
 
   return (
